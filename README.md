@@ -11,6 +11,7 @@ A Sway rice built around a black and cyan color scheme. I wanted the colors to f
 - **Zsh** — shell
 - **Nano** - text editor
 - **Starship** — shell prompt
+- **Kitty** — terminal
 
 ## Color palette
 
