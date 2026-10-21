@@ -28,6 +28,8 @@ These are my personal configs. Depending on your setup, you may need to install 
 
 My recomendation for a Wallaper https://www.reddit.com/r/linuxwallpapers/comments/q35blb/arch_ascii_logo/
 
+You will need ttf-bigblueterm-nerd for the kitty config.
+
 To setup Zsh run chsh -s /bin/zsh 
 
 Back up your existing configs before replacing them.
