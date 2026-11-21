@@ -1,4 +1,4 @@
-# Default config for sway
+# Config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -23,7 +23,7 @@ set $menu wofi --show drun
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg ~/Pictures/wallpaper.png fill
 #
-# Monitor configuration:
+# Example configuration:
 #
 output HDMI-A-1 resolution 1920x1080 position 0,0
 output DP-1 resolution 2560x1440 position 1920 0
@@ -246,3 +246,9 @@ client.urgent           #ff626e #241014 #ffffff #ff626e #ff626e
 # Window spacing
 gaps inner 0
 gaps outer 0
+
+# mouse settings
+input type:pointer {
+    pointer_accel -0.85        # Range: -1.0 (slowest) to 1.0 (fastest); 0 is default [0.6.13]
+    accel_profile flat       # Choose 'flat' to disable mouse acceleration or 'adaptive' for dynamic speed [0.6.1]
+}
