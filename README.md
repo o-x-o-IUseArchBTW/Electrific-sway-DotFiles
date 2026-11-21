@@ -1,6 +1,7 @@
 # electrific Sway DotFiles
 
 A Sway rice built around a black and cyan color scheme. I wanted the colors to feel consistent all the way around.
+
 Sorry if the mouse sens is LOW i have a 8000 dpi mouse so its tuned for that, you can change it in the very bottom of the sway configuration.
 
 ## What's included
